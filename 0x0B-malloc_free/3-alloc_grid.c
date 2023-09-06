@@ -28,7 +28,7 @@ if (grid[i] == NULL)
 {
 for (i--; i >= 0; i--)
 free(grid[i]);
-free(grid)
+free(grid);
 
 return (NULL);
 }
