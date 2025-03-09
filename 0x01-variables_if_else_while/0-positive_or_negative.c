@@ -14,5 +14,22 @@ int main(void)
 	 * @a: file system
 	 * 
 	 */
+
+	printf("Enter a new number:\n ");
+	scanf("%d", &n);
+
+	if ( n > 0 ) {
+		printf("Value is positive\n");
+	}
+	if ( n == 0 ){
+		printf("Value is equal to zero\n");
+	}
+	if ( n < 0 ){
+		printf("Value is negative\n");
+	}
+
+	else {
+		printf("\n");
+	}
 	return (0);
 }
