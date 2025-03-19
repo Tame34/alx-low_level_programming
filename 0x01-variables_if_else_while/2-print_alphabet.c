@@ -2,14 +2,16 @@
 
 int main(){
 
-	int n;
+	char n;
 
 
-	for (n = 'a'; n < 'z'; n++) {
+	for (n = 'a'; n <= 'z'; n++) {
 
-	putchar("%c", n);
+	putchar(n);
 	
-	putchar(\n);
 	}
+
+	putchar("\n");
+
 	return 0;
 }
