@@ -16,6 +16,8 @@ int main(void)
 
 	printf("is\n");
 
+	/*
+
 	if ( n > 5 ){
 		printf("and is greater than 5\n");
 	}
@@ -30,6 +32,7 @@ int main(void)
 	else {
 		printf("\n");
 	}
+	*/
 
 	return (0);
 }
